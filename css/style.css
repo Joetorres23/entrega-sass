@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: wheat;
+}
+
+.colorSubtitulos {
+  color: wheat;
+}
+
+.estiloIndex {
+  text-decoration: none;
+  color: wheat;
+  font-weight: bold;
+  background-color: #2c3e50;
+  font-size: 0.7rem;
+  text-align: start;
+  padding: 8px;
+  width: 20%;
+}
+
+.aplicaFlexbox {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  list-style-type: none;
+}
+.aplicaFlexbox li a {
+  text-decoration: none;
+  color: wheat;
+  font-weight: bold;
+  width: 50%;
+  background-color: #2c3e50;
+  font-size: 0.7em;
+  text-align: center;
+  padding: 8px;
+  margin: 0 10px 0 0;
+}
+
+footer {
+  background-color: rgb(248, 97, 42);
+  grid-area: footer;
+  height: 8rem;
+}
+
+.transformacion:hover {
+  background-color: rgb(248, 97, 42);
+  transform: scale(2);
+  width: 20%;
+  margin: 10px auto;
+}
+
+.transicion:hover {
+  background-color: rgb(248, 97, 42);
+  transition: all 2s;
+}
+
+.animacion:hover {
+  animation: cambioColor 4s;
+}
+
+@keyframes cambioColor {
+  100% {
+    background-color: #2c3e50;
+  }
+  70% {
+    background-color: rgb(248, 97, 42);
+    border-radius: 5%;
+  }
+}
+.card {
+  background-color: #2c3e50;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagenAlto {
+  width: 21rem;
+  height: 21rem;
+}
+
+.estiloContenedor {
+  padding: 0%;
+}
+
+.card {
+  background-color: #2c3e50;
+}
+.card .card-body {
+  color: wheat;
+}
+.card .card-title {
+  background-color: #2c3e50;
+  color: wheat;
+}
+.card .animacion {
+  background-color: #2c3e50;
+}
+
+header {
+  background-color: rgb(248, 97, 42);
+  background-size: cover;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
