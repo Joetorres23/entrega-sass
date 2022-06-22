@@ -4,73 +4,159 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Destinos: Viajes desde y hacia el aeropuerto; Viajes puerta a puerta; Cuentas Corrientes; Cuentas Corporativas. Cruze o Similar. Hyundai H1.">
+    <meta property="keywords" content="Viajes, aeropuerto, vuelos, traslados, auto, ir al aeropuerto, traslados ejecutivos, traslado corporativo, chevrolet cruze, audi q9, bmw x6, fiat cronos, renault master, mercedes sprinter">
+    <title>Traslados a tomar tu vuelo, el sitio que completa tu itinerario.</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-    <body>
-        
-        <header class="estiloHeader">
-            <nav>
-                <ul class="aplicaFlexbox">
-                <li><a href="./paginas/individual.html">INDIVIDUAL</a></li>
-                <li><a href="./paginas/compartido.html">COMPARTIDO</a></li>
-                <li><a href="./paginas/corporativo.html">CORPORATIVO</a></li>
-                </ul>
-            </nav>
-        header</header>
-        
-        
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="col estiloContenedor">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title animacion">PUNTO DE PARTIDA</h5>
-                  <ul class="card-text">Mujer Urbana</ul>
-                  <ul class="card-text">Plaza Ex Velez Sarfield</ul>
-                  <ul class="card-text">Paseo Del Jockey</ul>
-                  <ul class="card-text">Plaza General Paz</ul>
-                </div>
-              </div>
+<body>
+    <header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light colorNav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active colorLetra" aria-current="page" href="./paginas/individual.html">Individual</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link colorLetra" href="./paginas/compartido.html">Compartido</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link colorLetra" href="./paginas/corporativo.html">Corporativo</a>
+              </li>
+            </ul>
+            <span class="navbar-text colorLetra">
+              TrasladAR
+            </span>
+          </div>
+        </div>
+      </nav>
+      <img src="./imagenes/cordoba-area.jpg" alt="Imagen aerea noctura de la ciudad de Córdoba" class="ancho">
+    </header>
+    
+    <main class="contenedor">
+      <div class="contenedorImg" id="imagenAuto">
+        <img src="./imagenes/Honda_Civic_Sedan_2017_trasera-730.jpg" alt="Vehiculo Honda Civic representativo e ilustrativo de la pagina principal">
+      </div>
+      <section id="vehiculos">
+        <article class="flexPosicion">
+          <h2 class="subtituIndividual">Individual</h2>
+            <div>
+              <h2 class="subtituDestinos">Destinos:</h2>
+              <ul class="listServicios">
+                <li class="estiloBullets">Viajes desde y hacia el aeropuerto</li>
+                <li class="estiloBullets">Viajes puerta a puerta</li>
+                <li class="estiloBullets">Cuentas corrientes</li>
+                <li class="estiloBullets">Cuentas corporativas</li>
+              </ul>
             </div>
-            <div class="col estiloContenedor">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title animacion">INDIVIDUAL</h5>
-                  <ul class="card-text">Chevrolet Cruce</ul>
-                  <ul class="card-text">Fiat Cronos</ul>
-                  <ul class="card-text">Renault Fluence</ul>
-                  <ul class="card-text">Volkswagen Tiguan</ul>
-                </div>
-              </div>
+          </article>
+        <acticle>
+          <div>
+            <ol class="posicionFlex">
+              <li>
+                <h4 class="posicionModelos">Cruze o similar</h4>
+                <img src="./imagenes/ch-cruze.jpg" alt="Chevrolet Cruze, vehiculo de traslado individual" class="tamanoImagen">
+              </li>
+              <li>
+                <h4 class="posicionModelos">Sprinter o similar</h4>
+                <img src="./imagenes/mz-printer.jpg" alt="Mercedes Sprinter, vehiculo multipasajeros de alto confort, para traslados compartidos con otros clientes" class="tamanoImagen posicionRelativa">
+              </li>
+              <li>
+                <h4 class="posicionModelos">Bmw X7 o similar</h4>
+                <img src="./imagenes/bmw-x7.jpg" alt="Bmw X7, vehiculo para traslados individuales y corporativos, servicio de exclusividad" class="tamanoImagen">
+              </li>
+            </ol>
+          </div>
+        </article>
+      </section>
+      <section id="barraApp">
+        <h2 class="appEstilo">DESCARGA NUESTRA APP</h2>
+      </section>
+      <section id="imagenCompartido">
+        <div>
+          <img src="./imagenes/mercedes-sprinter-interior.jpg" alt="Vehiculo Mercedes Sprinter, de la parte interior, ilustrando viajes compartidos">
+        </div>
+      </section>
+      <section id="destinos">
+        <article class="flexPosicion">
+          <h2 class="estiloCompartido">Compartido</h2>
+          <div>
+            <h2 class="estiloDestino">Destinos:</h2>
+            <ul class="estiloUl">
+              <li>Aeropuerto pajas blancas</li>
+              <li>Carlos Paz</li>
+              <li>Rio Cuarto</li>
+              <li>Villa Maria</li>
+              <li>Villa Dolores</li>
+              <li>Alta Gracia</li>
+            </ul>
+            <div class="botonServicio">
+              <h3 class="estiloServicio1">RESERVAR SERVICIO</h3>
+              <h3 class="estiloServicio2">ARREPENTIMIENTO</h3>
             </div>
-            <div class="col estiloContenedor">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title animacion">COMPARTIDO</h5>
-                  <ul class="card-text">Fiat Trafic</ul>
-                  <ul class="card-text">Hyunday H1</ul>
-                  <ul class="card-text">Renault Master</ul>
-                  <ul class="card-text">Mercedes Benz Sprinter</ul>
-                </div>
-              </div>
-            </div>
-            <div class="col estiloContenedor">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title animacion">CORPORATIVO</h5>
-                  <ul class="card-text">Audi Q9</ul>
-                  <ul class="card-text">Porche Cayanne</ul>
-                  <ul class="card-text">Bmw X7</ul>
-                  <ul class="card-text">Mercedes Benz Gl63</ul>
-                </div>
+            <div>
+              <h3 class="subtituPagos">Medios de pago aceptados</h3>
+              <div class="mediosdePago">
+                <li class="estiloList"><img src="./imagenes/icono-visa" alt="Tarjeta Visa como medio de pago" class="iconRedes"></li>
+                <li class="estiloList"><img src="./imagenes/icono-mastercard" alt="Tarjeta MasterCard como medio de pago" class="iconRedes"></li>
+                <li class="estiloList"><img src="./imagenes/icono-naranja" alt="" class="iconRedes"></li>
+                <li class="estiloList"><img src="./imagenes/icono-amexpress.jpg" alt="Tarjeta American Express como medio de pago" class="iconRedes"></li>
+                <li class="estiloList"><img src="./imagenes/icono-cabal" alt="Tarjeta Cabal como medio de pago" class="iconRedes"></li>
+                <li class="estiloList"><img src="./imagenes/icono-maestro" alt="Tarjeta Maestro como medio de pago" class="iconRedes"></li>
+                <li class="estiloList"><img src="./imagenes/icono-mercadopago" alt="Billetera virtual Mercado Pago como medio de pago" class="iconRedes"></li>
+                <li class="estiloList"><img src="./imagenes/icono-paypal" alt="Billetera virtual PayPal como medio de pago para clientes extranjeros" class="iconRedes"></li>
               </div>
             </div>
           </div>
-
-          
-            <footer>footer</footer>
+        </article>
+      </section>
+      <div id="corporativo">
+        <img src="./imagenes/que-es-un-cluster-empresarial-objetivos.jpeg" alt="Imagen de ilustración empresarial, representando servicios corporativos" class="imagenCorpo">
+        <div class="estiloCorporativo">
+          <p>Nuestro servicio de transporte de personal para empresas, se encuentra encuadrado en nuestro sistema de de gestión de calidad y los procedimientos tendientes a mantener la performance de los servicios, son manejados de acuerdo a nuestro manual de gestión de calidad como lo indica nuestra politica para todos nuestros servicios</p>
         </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
+      </div>
+      <aside id="descripcionHistoria">
+        <div class="estiloHistoria">
+          <h2>
+            La flota mas moderna de Córdoba
+          </h2>
+        </div>
+        <div class="flexParrafohist">
+          <p class="estiloParrafohist">Esencialmente somos una empresa de servicios alineada con las necesidades de la gente. Por eso evolucionamos en forma permanente, brindando las respuestas acordes a cada requerimiento de la sociedad. La confianza de nuestros clientes nos impulsa a seguir ese camino, retribuyendo su preferencia con el máximo nivel de calidad.</p>
+        </div>
+      </aside>
+      <footer id="piedePagina" class="footerFlex">
+        <div>
+          <ul>
+            <li class="estiloList">Que hacemos</li>
+            <li class="estiloList">Nuestra historia</li>
+            <li class="estiloList">Nuestra flota</li>
+            <li class="estiloList">Transporte personal</li>
+          </ul>
+        </div>
+        <div>
+          <div><h3 class="estiloSubRed">Seguinos en nuestras redes</h3></div>
+          <div class="footerFlex">
+            <li class="estiloList"><img src="./imagenes/logo-facebook.jpg" alt="Red social Facebook" class="iconRedes"></li>
+            <li class="estiloList"><img src="./imagenes/icono-youtube.jpg" alt="Red social YouTube" class="iconRedes"></li>
+            <li class="estiloList"><img src="./imagenes/icono-ig.jpg" alt="Red social Instagram" class="iconRedes"></li>
+          </div>
+        </div>
+        <div class="posicionContacto">
+          <li>Asistencia las 24 hs</li>
+          <li> Linea rotativa 0351-45269012</li>
+          <li> WhatsApp 351-8064780</li>
+          <li> Av. Independencia Nº 1243</li>
+        </div>
+      </footer> 
+    </main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
 </html>
